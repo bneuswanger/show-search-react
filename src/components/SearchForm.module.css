@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form>input[type=text] {
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    width: auto;
+    font-size: larger;
+    margin-right: 1rem;
+    border: 2px solid white;
+}
