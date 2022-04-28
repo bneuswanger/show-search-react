@@ -1,0 +1,13 @@
+.show-display {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    margin: .5rem;
+}
+
+.viewing {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}

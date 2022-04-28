@@ -1,15 +1,23 @@
-@import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&family=Roboto:wght@100;300;400;500&display=swap);
+:root {
+  --color-body: #191b1f;
+  --color-card-bg: #44474d;
+  --color-card-shadow: rgba(202, 178, 156, 0.4);
+  --color-button-bg: #aeb1c5;
+  --color-button-bg-hover: #d7d8e2;
+  --color-button-text: var(--color-body);
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #282421;
+  background-color: var(--color-body);
   font-family: 'Roboto', sans-serif;
-  color: rgb(243, 236, 236);
+  color: rgb(236, 237, 243);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  text-align: center;
+  margin-bottom: 2rem;
 }

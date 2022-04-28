@@ -1,0 +1,24 @@
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.show>img {
+    margin: 0rem 1rem;
+    border: 1px solid white;
+    box-shadow: 0px 0px 7px white
+}
+
+.show>p {
+    max-width: 210px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.show>img:hover {
+    cursor: pointer;
+}

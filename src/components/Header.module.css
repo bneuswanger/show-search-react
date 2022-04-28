@@ -1,5 +1,4 @@
 .header {
-    font-family: 'Patrick Hand SC', cursive;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -9,41 +8,29 @@
 
 
 .header>h1 {
-    letter-spacing: .4rem;
-    font-size: 6vmin;
+    font-size: 3rem;
     margin: 1rem;
 }
 
 .header>h2 {
-    margin-top: 1rem;
-    margin-bottom: .2rem;
-    letter-spacing: .2rem;
-    font-size: 3vmin;
-
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem;
 }
 
-
-header>h3 {
-    font-family: 'Patrick Hand', cursive;
-    margin: .3rem;
-    letter-spacing: .2rem;
-    font-size: 1.5vmin;
+header>p {
+    margin: 1rem;
+    letter-spacing: .1rem;
+    font-size: 1rem;
     color: rgb(190, 190, 190);
 }
 
-.header>img {
-    margin-top: 2rem;
-    height: 15vmin;
-    border-radius: .5rem;
-    box-shadow: 0px 0px 7px rgba(255, 255, 255, .4);
-}
-
-header>h3>a {
+header>p>a {
     color: #55b4eb;
     text-decoration: none;
 }
 
-header>h3>a:hover {
+a:hover {
     color: rgb(198, 226, 245);
     text-decoration: underline;
 }
